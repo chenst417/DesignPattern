@@ -1,0 +1,8 @@
+AOP的应用场景：
+Authentication(权限认证)
+Auto Caching(自动缓存处理)
+Error Handling(统一错误处理)
+Debugging(调试信息输出)
+Logging(日志记录)
+Transactions(事物处理)
+......

@@ -1,0 +1,12 @@
+SpringAOP之Execution表达式
+    execution(modifiers-pattern？ ret-type-pattern declaring-type-pattern？
+    name-pattern(param-pattern) throws-pattern?)
+
+    modifiers-pattern ：方法的操作权限
+    ret-type-pattern ：返回值【必填】
+    declaring-type-pattern ：方法所在的包
+    name-pattern ：方法名【必填】
+    param-pattern ：参数名
+    throws-pattern ：异常
+
+    定义规则，找到一个规律，多个类中的多方法形成一个切面
